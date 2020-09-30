@@ -1,0 +1,64 @@
+/* CSS files add styling rules to your content */
+  body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: lightBlue;
+      }
+      #clock{
+        width: 300px;
+        height: 300px;
+        background-color: lightBlue;
+        border-radius: 300px;
+        margin-top: 150px;
+      }
+      #sec{
+        position: relative;
+        background-color: blueViolet;
+        width: 2px;
+        height: 140px;
+        top: 0px;
+        left: 150px;
+        transform-origin: bottom;
+        transition: all .3s ease;
+      }
+        #min{
+        position: relative;
+        background-color: brown;
+        width: 5px;
+        height: 100px;
+        top: -180px;
+        left: 149px;
+        transform-origin: bottom;
+        transition: all .3s ease;
+      }
+      #hour{
+        position: relative;
+        background-color: brown;
+        width: 10px;
+        height: 80px;
+        top: -80px;
+        left: 147px;
+        transform-origin: bottom;
+        transition: all .60s ease;
+      }
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+#cov{
+        width: 17px;
+        height: 17px;
+        background-color: #05142c;
+        border-radius: 300px;
+        margin-top: 150px;
+        left: 160px;
+        top: -10px;
+        position: relative;
+      }
